@@ -1,0 +1,92 @@
+/* Your CSS should have styles for each of the following elements:
+   * Body
+   * Header, nav, and footer
+   * Section
+   * Aside
+   * Article
+   * .clear
+   * Your text elements: h1, p, etc.
+ */
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+ #background {
+    padding: 10px;
+    background-color:#777;
+    width: 1024px;
+     height: 768px;
+     z-index: 0;
+
+ }
+ 
+ .wide {
+    height: 90px; 
+    padding: 20px;
+    margin-top:25px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    background: #ebebeb;
+}
+.sidel {
+    float: left; 
+    width: 55%;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    background: #ebebeb; 
+  
+}
+.sider {
+    float: right;
+    width: 35%;
+    height: 300px; 
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    background: #ebebeb; 
+  
+}
+.article {
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    background:  #777; 
+
+}  
+.hhh {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    background: #ebebeb; 
+}
+.p{
+    padding: 20px;
+    height: 60px; 
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    background: #ebebeb; 
+}
+.footer {
+    clear: both;
+    height: 90px; 
+    padding: 20px;
+    margin-top:5px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    background: #ebebeb;
+}
+
+}
